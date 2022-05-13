@@ -1,0 +1,56 @@
+@import '../../global.scss';
+
+.menu {
+    width: 350px;
+    height: 100vh;
+    background-color: $mainColor;
+    position: fixed;
+    top: 0;
+    right: -350px; // moves all the way to the right so it hides it
+    z-index: 2; //NOTE: we have z-index as less than topBar so it'll always be behind the topbar menu
+
+    //Fix element positions:
+    //1. Set display as flex
+    //2. Set the alignment of items to center and have it justified to center
+    display: flex; // need to set it as flex to use align-item and justify-content
+    align-items: center; //Aligns it to the center of our div
+    justify-content: center;
+
+    //If active class exist (aka when hamburglar icon is clicked)
+    &.active{
+        right: 0;
+    }
+
+    //Smooth out transition:
+    transition: all 1s ease;
+
+    // Formatting the list::after
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none; //removes the bullet points 
+        font-size: 30px;
+        font-weight: 300;
+        color: white;
+
+        // set initial width so that when we hover, because the font is changing, we want the width to be static
+        width: 68%;
+
+        li {
+            margin-bottom: 20px;
+
+            a{
+                //Inherits all colors and font-size of parent (in this case ul)
+                font-size: inherit;
+                color: inherit;
+                text-decoration: none;
+                font-weight: inherit;
+            }
+
+            //Every time the user hovers over the navigation, it'll change the font
+            &:hover {
+                font-weight: 500;
+            }
+        }
+    }
+}

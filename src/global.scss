@@ -1,0 +1,13 @@
+// Creating our main theme for webpage::after
+$mainColor: #15023a;
+
+
+// Define variable for responsive design for mobile
+$width: 768px;
+
+//Create a mobile class that contrains methosd for our responsive design to use
+@mixin mobile {
+    @media (max-width: #{$width}){
+        @content
+    }
+}

@@ -1,0 +1,121 @@
+@import "../../global.scss";
+
+.topbar {
+    width: 100%;
+    height: 70px;
+    background: white;
+    color: $mainColor;
+    position: fixed; //fixed allows for the position toa lways stay in the same place even if the page is scrolled
+    top: 0; //We do top 0 so we can basically have the nav bar always at the top, rmb position is fixed  
+    z-index: 3; //Specify stack order of element
+    // Element with greater stack order (2) will always appear in front of any element with lower stack order
+
+    // smooth out all transitions aka make it slower:
+    transition: all 1s ease;
+
+
+    .wrapper {
+        padding: 10px 30px; //Two elements = vertical and horizontal 
+        display: flex; //makes our items inside wrapper go from direction left to right instead of vertical alignment
+        align-items: center;
+        justify-content: space-between; //spaces our items, first element starts with padding 10px from left --> right
+
+        // In summary:
+        // We set padding for elements (vertical and horizontal padding)
+        // We set orientation of our elements being flex (putting our items left to right)
+        // We align the elements center
+        // We space out our elements using justify-content (NOTE: adjustments are done after margins (padding) are applied)
+            //Can only use justify-content with display:flex;
+            // Space-around: first item is flush with the start, second item is flush with the end, etc.
+    
+        .left {
+            display: flex;
+            align-items: center;
+
+            .logo{
+                font-size: 40px;
+                font-weight: 700;
+                text-decoration: none;
+                color:inherit; //inherit color from parent
+            }
+
+            .itemContainer {
+                display: flex;
+                align-items: center;
+                margin-left: 30px;
+
+                .icon {
+                    font-size: 18px;
+                    margin-right: 5px;
+                }
+
+                .span {
+                    font-size: 15px;
+                    font-weight: 400; //NOTE: font-weight is what we assigned in our index.html in Google fonts
+                }
+
+                @include mobile {
+                    display: none;
+                }
+            }
+
+        }
+
+        .right {
+            .hamburger{
+                width: 32px;
+                height: 25px;
+                display: flex;
+                flex-direction: column; //remember, default is horizontal, because we set column it'll be vertical 
+                justify-content: space-between;
+                cursor: pointer;
+
+                span {
+                    width: 100%;
+                    height: 3px;
+                    background-color: $mainColor;
+                    transform-origin: left; //rotate to the left
+                    transition: all 2s ease;
+                }
+
+                //Delete scroll bar:
+                scrollbar-width: none; // this is for firefox
+
+                // This so for all other browsers
+                &::-webkit-scrollbar{
+                    display:none;
+                }
+            }
+        }
+    }
+
+    //If statement, if active is true 
+    &.active {
+        background-color: $mainColor;
+        color: white;
+
+        .hamburger {
+            span {
+                &:first-child {
+                    background-color: white;
+                    transform: rotate(45deg); //whatever in paramater is in degrees, in this case 45 degrees
+                }
+                &:nth-child(2) {
+                    opacity: 0;
+                }
+                &:last-child {
+                    background-color: white;
+                    transform: rotate(-45deg); //whatever in paramater is in degrees, in this case 45 degrees
+                }
+            }
+
+            //Delete scroll bar:
+            scrollbar-width: none; // this is for firefox
+
+            // This so for all other browsers
+            &::-webkit-scrollbar{
+                display:none;
+            }
+        }
+    }
+}

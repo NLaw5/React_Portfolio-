@@ -1,0 +1,44 @@
+.App {
+    height: 100vh;
+
+    .sections {
+        width: 100%;
+        position: relative; //Make position relative, always relative to where the .section is located 
+        top: 70px; // Start at position 70px
+        height: calc(100vh - 70px); //Height will always be the Apps height minus 70 px to prevent overflow
+
+        //Allows for smooth transition when navigating our page, such as snap scrolling
+        scroll-behavior: smooth; 
+
+        // Apply snap scrlling here:
+        // the snap type will be from the y axis, and is mandatory for anything in the app component 
+        scroll-snap-type: y mandatory;
+
+        // IMPORTANT: the syntax can either be mandatory or proximity, if proximity it will only snap at a certain proximity to the next section
+        // For more info, documentation for snap will be here: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Scroll_Snap/Basic_concepts
+
+        //For each statement: 
+        > *{
+            width: 100vw;
+            height: calc(100vh - 70px); 
+            //Remember we want to be snap scrolled aka, every section should take up the whole screen MINUS the top bar pixel:
+            // In other words: (Max height of App - the Height of the top bar) 
+
+            //important!: whenever we do a foreach statement, there will be an overflow, this has been corrected in index.html
+            // I added an overflow-x: none; ==> any overflow between the elements left and right edges wil be set to none
+            
+            //whenever uses scrolls, because I set scroll-snap-align, it will always scroll to the start of the next container
+            scroll-snap-align: start;    
+        }
+
+        //Delete scroll bar:
+        scrollbar-width: none; // this is for firefox
+
+        // This so for all other browsers
+        &::-webkit-scrollbar{
+            display:none;
+        }
+
+
+    }
+}

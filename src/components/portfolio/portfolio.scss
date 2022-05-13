@@ -1,0 +1,92 @@
+@import "../../global.scss";
+
+.portfolio {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+        font-size: 50px;
+
+        @include mobile {
+            font-size: 20px;
+        }
+    }
+
+
+    ul {
+        margin: 10px;
+        padding: 0;
+        list-style: none;
+        display: flex;
+
+        @include mobile {
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 10px 0;
+        }
+    }
+
+    .container {
+        width: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        //If the items dont fit the container, we can use flex-wrap to create another row:
+        flex-wrap: wrap;
+
+        @include mobile {
+            width: 100%;
+        }
+
+        .item {
+            width: 220px;
+            height: 150px;
+            border-radius: 20px; //making it a bit more circular 
+            border: 1px solid lightgrey;
+            margin: 10px 20px;
+
+            //adding flex
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            position: relative; //relative towards where it's placed in the container class
+
+            //In other words:
+            // Parent is relative towards the page, child is absolute towards the parent
+
+            //Add transition:
+            transition: all 0.5s  ease;
+
+            @include mobile {
+                width: 130px;
+                height: 100px;
+            }
+
+            h3 {
+                position: absolute; //positions towards whatever the parent is
+                font-size: 20px;
+            }
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                z-index: 1;
+                //H3 is behindthe image now by default 
+            }
+
+            &:hover {
+                background-color: $mainColor;
+                img {
+                    opacity: 0.2;
+                    z-index: 0;
+                }
+            }
+        }
+    }
+}
+
