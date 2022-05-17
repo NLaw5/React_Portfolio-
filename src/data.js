@@ -1,72 +1,98 @@
 export const featuredPortfolio = [
     {
       id: 1,
-      title: "Social Media App",
+      title: "Meeting Module",
       img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+        "assets/tdsbMeetingModule.jpg",
+      link: 
+        "https://www.tdsb.on.ca/Leadership/Boardroom/Live-Webcast-of-Meetings/Webcast-Archives"
     },
     {
       id: 2,
-      title: "Rampa UI Design",
+      title: "EventHood",
       img:
-        "https://cdn.dribbble.com/users/702789/screenshots/15054318/media/4ea5d492b7b07eebc9528ff960794879.png?compress=1&resize=1200x900",
+        "assets/Eventhood_Logo.jpg",
+      link:
+        "https://expo.dev/@kevan-y/eventhood-app"
     },
     {
       id: 3,
-      title: "E-commerce Web Design",
+      title: "React JS Portfolio",
       img:
-        "https://cdn.dribbble.com/users/1387827/screenshots/15466426/media/deb2dca6762cd3610321c98bfccb0b72.png?compress=1&resize=1200x900",
+        "assets/ReactPortfolio.jpg",
+      link:
+        "https://newman-law-portfolio-alpha.vercel.app/"
     },
     {
       id: 4,
-      title: "Relax Mobile App",
+      title: "Spotify Angular App",
       img:
-        "https://cdn.dribbble.com/users/4095861/screenshots/15467417/media/d6a15c416626f12b31fa5ca1db192572.png?compress=1&resize=1200x900",
+        "assets/SpotifyAngular.jpg",
+      link:
+        "https://angular-fullstack-spotifyapp.netlify.app/"
     },
     {
       id: 5,
-      title: "Hero Web Design",
+      title: "TDSB Learning Outdoors",
       img:
-        "https://cdn.dribbble.com/users/5031392/screenshots/15467520/media/c36b3b15b25b1e190d081abdbbf947cf.png?compress=1&resize=1200x900",
+        "assets/tdsbLearningOutdoors.jpg",
+      link:
+        "https://www.tdsb.on.ca/learningoutdoors",
     },
     {
       id: 6,
-      title: "Banking App",
+      title: "Node JS Project",
       img:
-        "https://cdn.dribbble.com/users/3307260/screenshots/15468444/media/447b4501f7a145b05e11c70199a9c417.jpg?compress=1&resize=1200x900",
+        "assetS/RestaurantNodeJS.JPG",
+      link:
+        "https://node-js-restaurant-project.herokuapp.com/"
     },
   ];
   
   export const webPortfolio = [
     {
       id: 1,
-      title: "Web Social Media App",
-      img: "https://cdn.dribbble.com/users/5031392/screenshots/15467520/media/c36b3b15b25b1e190d081abdbbf947cf.png?compress=1&resize=1200x900",
+      title: "Meeting Module",
+      img:
+        "assets/tdsbMeetingModule.jpg",
+      link: 
+        "https://www.tdsb.on.ca/Leadership/Boardroom/Live-Webcast-of-Meetings/Webcast-Archives"
     },
     {
       id: 2,
-      title: "Web Rampa UI Design",
-      img: "https://cdn.dribbble.com/users/3967258/screenshots/15463803/media/4fddb9a2caf3b3bd634060f706a91e73.png?compress=1&resize=1200x900",
+      title: "TDSB Job Fairs",
+      img: "assets/tdsbJobFairs.jpg",
+      link: "https://www.tdsb.on.ca/Community/Community-Services/Current-Job-Postings"
     },
     {
       id: 3,
-      title: "Web E-commerce Design",
-      img: "https://cdn.dribbble.com/users/3637068/screenshots/15467010/media/69a3279182b75365013fe285733d1122.png?compress=1&resize=1200x900",
+      title: "TDSB ESL Program",
+      img: "assets/tdsbESLJob.JPG",
+      link: "https://www.tdsb.on.ca/Adult-Learners/Learn-English/-ESL-Programs/ESL-Program-Search"
     },
     {
       id: 4,
-      title: "Web Relax App",
-      img: "https://cdn.dribbble.com/users/2264844/screenshots/15463998/media/d85e92a332c41094f68e1f716884f7ce.jpg?compress=1&resize=1200x900",
+      title: "TDSB Learning Outdoors",
+      img:
+        "assets/tdsbLearningOutdoors.jpg",
+      link:
+        "https://www.tdsb.on.ca/learningoutdoors",
     },
     {
       id: 5,
-      title: "Web Design",
-      img: "https://cdn.dribbble.com/users/387658/screenshots/15458608/media/e92ec1dd33dd1170ae3dc9c5272f2693.jpg?compress=1&resize=1200x900",
+      title: "Node JS Project",
+      img:
+        "assetS/RestaurantNodeJS.JPG",
+      link:
+        "https://node-js-restaurant-project.herokuapp.com/"
     },
     {
       id: 6,
-      title: "Web Banking App",
-      img: "https://cdn.dribbble.com/users/3307260/screenshots/15468444/media/447b4501f7a145b05e11c70199a9c417.jpg?compress=1&resize=1200x900",
+      title: "Spotify Angular App",
+      img:
+        "assets/SpotifyAngular.jpg",
+      link:
+        "https://angular-fullstack-spotifyapp.netlify.app/"
     },
   ];
   
@@ -75,114 +101,121 @@ export const featuredPortfolio = [
       id: 1,
       title: "EventHood",
       img:
-        "https://cdn.dribbble.com/users/2597268/screenshots/15468893/media/44313553d73ba41580f1df69749bba28.jpg?compress=1&resize=1200x900",
+        "assets/Eventhood_Logo.jpg",
+      link:
+        "https://expo.dev/@kevan-y/eventhood-app"
     },
     {
       id: 2,
-      title: "Mobile Rampa UI Design",
+      title: "Android Recipe App",
       img:
-        "https://cdn.dribbble.com/users/4095861/screenshots/15467417/media/d6a15c416626f12b31fa5ca1db192572.png?compress=1&resize=1200x900",
+        "assets/RestaurantApp.JPG",
+      link: "https://github.com/NLaw5/Android-Mobile-Recipe-Full-Stack-Application"
     },
     {
       id: 3,
-      title: "Mobile E-commerce Design",
+      title: "Android Calculator App",
       img:
-        "https://cdn.dribbble.com/users/1998175/screenshots/15459384/media/48ac2b43ebe81ba0866afea1383cc939.png?compress=1&resize=1200x900",
+        "assets/CalculatorApp.JPG",
+      link: ""
     },
     {
       id: 4,
-      title: "Mobile Relax App",
+      title: "iOS Weather App",
       img:
-        "https://cdn.dribbble.com/users/2083704/screenshots/15468619/media/cd958306c7a772449e1ac23bd65ce506.png?compress=1&resize=1200x900",
+        "assets/iOSWeatherApp.jpg",
+      link: "https://github.com/NLaw5/iOS-Weather-App"
     },
     {
       id: 5,
-      title: "Mobile Hero Design",
+      title: "iOS Countries App",
       img:
-        "https://cdn.dribbble.com/users/26642/screenshots/15462545/media/1a202ef5c8338b6f78634e6edc1ba350.png?compress=1&resize=1200x900",
+        "assets/iOSCountriesApp.jpg",
+      link: "https://github.com/NLaw5/iOS-Countries-App"
     },
     {
       id: 6,
-      title: "Mobile Banking App",
+      title: "iOS Pizza App",
       img:
-        "https://cdn.dribbble.com/users/1387827/screenshots/15466426/media/deb2dca6762cd3610321c98bfccb0b72.png?compress=1&resize=1200x900",
+        "assets/iOSPizzaApp.jpg",
+      link: "https://github.com/NLaw5/iOS-Pizza-App"
     },
   ];
   
-  export const designPortfolio = [
-    {
-      id: 1,
-      title: "Design Social Media App",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-    {
-      id: 2,
-      title: "Design Rampa UI Design",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-    {
-      id: 3,
-      title: "Design E-commerce Web Design",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-    {
-      id: 4,
-      title: "Design Relax Mobile App",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-    {
-      id: 5,
-      title: "Design Keser Web Design",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-    {
-      id: 6,
-      title: "Design Banking App",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-  ];
+  // export const designPortfolio = [
+  //   {
+  //     id: 1,
+  //     title: "Design Social Media App",
+  //     img:
+  //       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+  //   },
+  //   {
+  //     id: 2,
+  //     title: "Design Rampa UI Design",
+  //     img:
+  //       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+  //   },
+  //   {
+  //     id: 3,
+  //     title: "Design E-commerce Web Design",
+  //     img:
+  //       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+  //   },
+  //   {
+  //     id: 4,
+  //     title: "Design Relax Mobile App",
+  //     img:
+  //       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+  //   },
+  //   {
+  //     id: 5,
+  //     title: "Design Keser Web Design",
+  //     img:
+  //       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+  //   },
+  //   {
+  //     id: 6,
+  //     title: "Design Banking App",
+  //     img:
+  //       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+  //   },
+  // ];
   
-  export const contentPortfolio = [
-    {
-      id: 1,
-      title: "HTML",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-    {
-      id: 2,
-      title: "CSS3",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-    {
-      id: 3,
-      title: "JavaScript",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-    {
-      id: 4,
-      title: ".Net",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-    {
-      id: 5,
-      title: "ReactJS",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-    {
-      id: 6,
-      title: "NodeJS",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-  ];
+  // export const contentPortfolio = [
+  //   {
+  //     id: 1,
+  //     title: "HTML",
+  //     img:
+  //       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+  //   },
+  //   {
+  //     id: 2,
+  //     title: "CSS3",
+  //     img:
+  //       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+  //   },
+  //   {
+  //     id: 3,
+  //     title: "JavaScript",
+  //     img:
+  //       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+  //   },
+  //   {
+  //     id: 4,
+  //     title: ".Net",
+  //     img:
+  //       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+  //   },
+  //   {
+  //     id: 5,
+  //     title: "ReactJS",
+  //     img:
+  //       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+  //   },
+  //   {
+  //     id: 6,
+  //     title: "NodeJS",
+  //     img:
+  //       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+  //   },
+  // ];

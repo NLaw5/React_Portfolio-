@@ -61,6 +61,14 @@
             //Add transition:
             transition: all 0.5s  ease;
 
+            //Delete scroll bar:
+            scrollbar-width: none; // this is for firefox
+
+            // This so for all other browsers
+            &::-webkit-scrollbar{
+                display:none;
+            }
+
             @include mobile {
                 width: 130px;
                 height: 100px;
@@ -68,7 +76,8 @@
 
             h3 {
                 position: absolute; //positions towards whatever the parent is
-                font-size: 20px;
+                // font-size: 20px;
+                display: none;
             }
 
             img {
@@ -84,6 +93,10 @@
                 img {
                     opacity: 0.2;
                     z-index: 0;
+                }
+
+                h3{
+                    display: unset;
                 }
             }
         }

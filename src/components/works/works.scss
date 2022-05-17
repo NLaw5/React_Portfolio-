@@ -32,6 +32,7 @@
         // the slider will start at the left and will move on the left 
         transition: all 1s ease-out;
         
+
         @include mobile {
             height: 100vh;
             flex-direction: column;
@@ -74,6 +75,13 @@
                         flex-direction: column;
                         justify-content: space-between;
                         
+
+                        @include mobile {
+                            width: 130px;
+                            height: 100px;
+                        }
+
+
                         @include mobile {
                             width: 100%;
                             margin-left: 10px;
@@ -106,10 +114,27 @@
                             @include mobile{
                                 font-size: 13px;
                             }
+
+                            //Delete scroll bar:
+                            scrollbar-width: none; // this is for firefox
+
+                            // This so for all other browsers
+                            &::-webkit-scrollbar{
+                                display:none;
+                            }
+                    
                         }
 
                         p {
                             font-size: 20px;
+                            //Delete scroll bar:
+                            scrollbar-width: none; // this is for firefox
+
+                            // This so for all other browsers
+                            &::-webkit-scrollbar{
+                                display:none;
+                            }
+                            
                             @include mobile{
                                 display: none;
                             }
@@ -135,7 +160,7 @@
 
                     img {
                         width: 400px;
-                        transform: rotate(-10deg);
+                        // transform: rotate(-10deg);
                     }
                 }
             }

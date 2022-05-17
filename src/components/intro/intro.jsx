@@ -30,7 +30,7 @@ export default function Intro() {
             Hi There, I'm
           </h1>
           <h2>Newman Law</h2>
-          <h3>Web <span ref={textRef}></span></h3>
+          <h3>Software <span ref={textRef}></span></h3>
         </div>
 
         <a href="#portfolio">

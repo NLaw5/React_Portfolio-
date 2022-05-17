@@ -8,6 +8,7 @@ import {
   designPortfolio,
   contentPortfolio,
 } from "../../data";
+import { DnsTwoTone } from '@material-ui/icons';
 
 export default function Portfolio() {
 
@@ -26,12 +27,12 @@ export default function Portfolio() {
       case "mobile":
         setData(mobilePortfolio)
         break;
-      case "design":
-        setData(designPortfolio)
-        break;
-      case "content":
-        setData(contentPortfolio)
-        break;
+      // case "design":
+      //   setData(designPortfolio)
+      //   break;
+      // case "content":
+      //   setData(contentPortfolio)
+      //   break;
       default:
           setData(featuredPortfolio)
     }
@@ -52,14 +53,14 @@ export default function Portfolio() {
       id: "mobile",
       title: "Mobile App",
     },
-    {
-      id: "design",
-      title: "Design",
-    },
-    {
-      id: "content",
-      title: "Content",
-    }
+    // {
+    //   id: "design",
+    //   title: "Design",
+    // },
+    // {
+    //   id: "content",
+    //   title: "Content",
+    // }
   ]
 
 
@@ -80,9 +81,10 @@ export default function Portfolio() {
       <div className="container">
         {portfolioData.map(data => (
           <div className="item">
-          <img src= {data.img}
-            alt="" 
-          />
+            <a href={data.link}>
+            <img src= {data.img}
+              alt=""/>
+            </a>
           <h3>{data.title}</h3>
         </div>
         ))}

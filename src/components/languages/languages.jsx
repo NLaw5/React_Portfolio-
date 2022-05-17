@@ -31,7 +31,7 @@ export default function Languages() {
         "assets/placeholderm.jpg",
       icon: "assets/linkedin.png",
       desc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem",
+        "Newman carried out a variety of responsibilities with a high degree of efficiency and accuracy.",
     },
   ];
   return (

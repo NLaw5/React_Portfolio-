@@ -8,6 +8,14 @@ li {
     border-radius: 10px;
     cursor: pointer;
 
+    //Delete scroll bar:
+    scrollbar-width: none; // this is for firefox
+
+    // This so for all other browsers
+    &::-webkit-scrollbar{
+        display:none;
+    }
+
     @include mobile {
         margin-right: 20px;
     }

@@ -9,30 +9,48 @@ export default function Works() {
   const data = [
     {
       id: "1",
-      icon: "./assets/mobile.png",
-      title: "Web Design",
+      icon: "./assets/globe.png",
+      title: "TDSB Meeting Module",
       desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+        ".NET Meeting Module for Archived Meetings on TDSB",
       img:
-        "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930",
+        "assets/tdsbMeetingModule.jpg",
+      link:
+        "https://www.tdsb.on.ca/Leadership/Boardroom/Live-Webcast-of-Meetings/Webcast-Archives",
+      SourceCode: 
+        "",
+      extraStyle:
+        "",
     },
     {
       id: "2",
-      icon: "./assets/globe.png",
-      title: "Mobile Application",
+      icon: "./assets/mobile.png",
+      title: "EventHood",
       desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "iOS/Android Mobile Event app using REACT Native",
       img:
-        "https://i.pinimg.com/originals/e9/c9/2f/e9c92f7869d682a6fa5a97fb8a298f30.jpg",
+        "assets/EventHood.png",
+      link:
+        "https://expo.dev/@kevan-y/eventhood-app",
+      SourceCode:
+        "https://github.com/Eventhood/Eventhood-app",
+      extraStyle:
+        "200px"
     },
     {
       id: "3",
-      icon: "./assets/writing.png",
-      title: "Branding",
+      icon: "./assets/globe.png",
+      title: "Angular Spotify App",
       desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "Full Stack Angular Project utilizing Spotify APIs and component based design.",
       img:
-        "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
+        "assets/SpotifyAngular.jpg",
+      link:
+        "https://angular-fullstack-spotifyapp.netlify.app/",
+      SourceCode:
+        "https://github.com/NLaw5/Angular-Spotify-App",
+      extraStyle:
+        ""
     },
   ];
 
@@ -62,13 +80,19 @@ export default function Works() {
                   <p>
                     {item.desc}
                   </p>
-                  <span>Projects</span>
+                  <span><a  href={item.link}>Project Link</a></span>
+                  {item.SourceCode.length > 0 && 
+                      <span> 
+                      <a href={item.SourceCode}>Source Code</a>
+                    </span>
+                  }
                 </div>
               </div>
               <div className="right">
                 <img
                   src={item.img}
-                  alt="Example of Mobile design"
+                  alt="test123"
+                  style = {{width: item.extraStyle}}
                 />
               </div>
             </div>
