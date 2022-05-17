@@ -11,7 +11,7 @@ export const featuredPortfolio = [
       id: 2,
       title: "EventHood",
       img:
-        "assets/EVenthood_logo.JPG",
+        "assets/EVenthood_logo.jpg",
       link:
         "https://expo.dev/@kevan-y/eventhood-app"
     },
