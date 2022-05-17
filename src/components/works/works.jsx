@@ -14,7 +14,7 @@ export default function Works() {
       desc:
         ".NET Meeting Module for Archived Meetings on TDSB",
       img:
-        "assets/tdsbMeetingModule.jpg",
+        "assets/tdsbMeetingModule.JPG",
       link:
         "https://www.tdsb.on.ca/Leadership/Boardroom/Live-Webcast-of-Meetings/Webcast-Archives",
       SourceCode: 
@@ -29,7 +29,7 @@ export default function Works() {
       desc:
         "iOS/Android Mobile Event app using REACT Native",
       img:
-        "assets/EventHood.png",
+        "assets/Eventhood.png",
       link:
         "https://expo.dev/@kevan-y/eventhood-app",
       SourceCode:
@@ -44,7 +44,7 @@ export default function Works() {
       desc:
         "Full Stack Angular Project utilizing Spotify APIs and component based design.",
       img:
-        "assets/SpotifyAngular.jpg",
+        "assets/SpotifyAngular.JPG",
       link:
         "https://angular-fullstack-spotifyapp.netlify.app/",
       SourceCode:

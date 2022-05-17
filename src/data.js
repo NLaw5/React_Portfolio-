@@ -3,7 +3,7 @@ export const featuredPortfolio = [
       id: 1,
       title: "Meeting Module",
       img:
-        "assets/tdsbMeetingModule.jpg",
+        "assets/tdsbMeetingModule.JPG",
       link: 
         "https://www.tdsb.on.ca/Leadership/Boardroom/Live-Webcast-of-Meetings/Webcast-Archives"
     },
@@ -11,7 +11,7 @@ export const featuredPortfolio = [
       id: 2,
       title: "EventHood",
       img:
-        "assets/Eventhood_Logo.jpg",
+        "assets/Eventhood_Logo.JPG",
       link:
         "https://expo.dev/@kevan-y/eventhood-app"
     },
@@ -19,7 +19,7 @@ export const featuredPortfolio = [
       id: 3,
       title: "React JS Portfolio",
       img:
-        "assets/ReactPortfolio.jpg",
+        "assets/ReactPortfolio.JPG",
       link:
         "https://newman-law-portfolio-alpha.vercel.app/"
     },
@@ -27,7 +27,7 @@ export const featuredPortfolio = [
       id: 4,
       title: "Spotify Angular App",
       img:
-        "assets/SpotifyAngular.jpg",
+        "assets/SpotifyAngular.JPG",
       link:
         "https://angular-fullstack-spotifyapp.netlify.app/"
     },
@@ -35,7 +35,7 @@ export const featuredPortfolio = [
       id: 5,
       title: "TDSB Learning Outdoors",
       img:
-        "assets/tdsbLearningOutdoors.jpg",
+        "assets/tdsbLearningOutdoors.JPG",
       link:
         "https://www.tdsb.on.ca/learningoutdoors",
     },
@@ -43,7 +43,7 @@ export const featuredPortfolio = [
       id: 6,
       title: "Node JS Project",
       img:
-        "assetS/RestaurantNodeJS.JPG",
+        "assets/RestaurantNodeJS.JPG",
       link:
         "https://node-js-restaurant-project.herokuapp.com/"
     },
@@ -54,14 +54,14 @@ export const featuredPortfolio = [
       id: 1,
       title: "Meeting Module",
       img:
-        "assets/tdsbMeetingModule.jpg",
+        "assets/tdsbMeetingModule.JPG",
       link: 
         "https://www.tdsb.on.ca/Leadership/Boardroom/Live-Webcast-of-Meetings/Webcast-Archives"
     },
     {
       id: 2,
       title: "TDSB Job Fairs",
-      img: "assets/tdsbJobFairs.jpg",
+      img: "assets/tdsbJobFairs.JPG",
       link: "https://www.tdsb.on.ca/Community/Community-Services/Current-Job-Postings"
     },
     {
@@ -74,7 +74,7 @@ export const featuredPortfolio = [
       id: 4,
       title: "TDSB Learning Outdoors",
       img:
-        "assets/tdsbLearningOutdoors.jpg",
+        "assets/tdsbLearningOutdoors.JPG",
       link:
         "https://www.tdsb.on.ca/learningoutdoors",
     },
@@ -90,7 +90,7 @@ export const featuredPortfolio = [
       id: 6,
       title: "Spotify Angular App",
       img:
-        "assets/SpotifyAngular.jpg",
+        "assets/SpotifyAngular.JPG",
       link:
         "https://angular-fullstack-spotifyapp.netlify.app/"
     },
@@ -101,7 +101,7 @@ export const featuredPortfolio = [
       id: 1,
       title: "EventHood",
       img:
-        "assets/Eventhood_Logo.jpg",
+        "assets/EVenthood_logo.jpg",
       link:
         "https://expo.dev/@kevan-y/eventhood-app"
     },
@@ -117,7 +117,7 @@ export const featuredPortfolio = [
       title: "Android Calculator App",
       img:
         "assets/CalculatorApp.JPG",
-      link: ""
+      link: "https://github.com/NLaw5/Android-Calculator"
     },
     {
       id: 4,
