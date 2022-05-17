@@ -42,7 +42,7 @@ export default function Works() {
       icon: "./assets/globe.png",
       title: "Angular Spotify App",
       desc:
-        "Full Stack Angular Project utilizing Spotify APIs and component based design.",
+        "Full Stack Angular Project utilizing Spotify APIs and JWT Tokens for User Login / Sessions.",
       img:
         "assets/SpotifyAngular.JPG",
       link:
@@ -80,6 +80,7 @@ export default function Works() {
                   <p>
                     {item.desc}
                   </p>
+                  <br/>
                   <span><a  href={item.link}>Project Link</a></span>
                   {item.SourceCode.length > 0 && 
                       <span> 
