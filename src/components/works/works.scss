@@ -144,6 +144,16 @@
                             font-size: 12px;
                             font-weight: 600;
                             text-decoration: underline;
+
+                            
+                            // This so for all other browsers
+                            &::-webkit-scrollbar{
+                                display:none;
+                            }
+                            
+                            @include mobile{
+                                display: none;
+                            }
                         }
                     }
                 }
