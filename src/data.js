@@ -11,7 +11,7 @@ export const featuredPortfolio = [
       id: 2,
       title: "EventHood",
       img:
-        "assets/Eventhood_Logo.JPG",
+        "assets/Eventhood_logo.JPG",
       link:
         "https://expo.dev/@kevan-y/eventhood-app"
     },
@@ -61,7 +61,7 @@ export const featuredPortfolio = [
     {
       id: 2,
       title: "TDSB Job Fairs",
-      img: "assets/tdsbJobFairs.JPG",
+      img: "assets/TDSBJobFairs.JPG",
       link: "https://www.tdsb.on.ca/Community/Community-Services/Current-Job-Postings"
     },
     {
@@ -82,7 +82,7 @@ export const featuredPortfolio = [
       id: 5,
       title: "Node JS Project",
       img:
-        "assetS/RestaurantNodeJS.JPG",
+        "assets/RestaurantNodeJS.JPG",
       link:
         "https://node-js-restaurant-project.herokuapp.com/"
     },
