@@ -31,9 +31,11 @@ export default function Intro() {
           </h1>
           <h2>Newman Law</h2>
           <h3>Software <span ref={textRef}></span></h3>
+          {/* <h3><a href="https://github.com/NLaw5">Here is a link to my GitHub!</a></h3> */}
+          <p><a href="https://github.com/NLaw5">Here is a link to my GitHub!</a></p>
         </div>
 
-        <a href="#portfolio">
+        <a class ="arrow-down" href="#portfolio">
           <img src="assets/down.png" alt="Navigate to Portfolio"/>
         </a>
       </div>

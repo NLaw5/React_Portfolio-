@@ -86,6 +86,9 @@
                 }
             }
 
+            p {
+                margin: 10px 0;
+            }
             .ityped-cursor {
                 animation: blink 1s infinite;
             }
@@ -99,7 +102,7 @@
                 }
             }
         }
-        a {
+        .arrow-down {
             position: absolute;
             bottom: 10px;
             left: 40%;
