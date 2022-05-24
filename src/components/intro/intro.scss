@@ -93,6 +93,10 @@
                    color: crimson;
 
                }
+
+               @include mobile {
+                   font-size: 15px;
+               }
             }
             .ityped-cursor {
                 animation: blink 1s infinite;
