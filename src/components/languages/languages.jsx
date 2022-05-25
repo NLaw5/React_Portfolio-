@@ -59,7 +59,7 @@ export default function Languages() {
               <img className="right" src={d.icon} alt="" />
             </div>
             <div className="center">
-              <a href={d.pdfLink} target="_blank">{d.desc}</a>
+              <a href={d.pdfLink} target="_blank" aria-label="Navigate to Reference PDF">{d.desc}</a>
             </div>
             <div className="bottom">
               <h3>{d.name}</h3>
