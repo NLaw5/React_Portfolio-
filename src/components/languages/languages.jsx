@@ -7,15 +7,15 @@ export default function Languages() {
   const data = [
     {
       id: 1,
-      name: "Ho Jung",
-      title: "Web Production and Training Specialist TDSB",
+      name: "Michael Kojoukh",
+      title: "Communications Coordinator, Web Services TDSB",
       img:
         "assets/placeholderm.jpg",
       icon: "assets/linkedin.png",
       desc:
-        "...he was able to complete two development projects, remediate over 2000 pages to be compliant in accordance with WCAG 2.0.",
+        "Newman carried out a variety of responsibilities with a high degree of efficiency and accuracy.",
       pdfLink:
-        hoJungPDF
+        michaelPDF
     },
     {
       id: 2,
@@ -32,15 +32,15 @@ export default function Languages() {
     },
     {
       id: 3,
-      name: "Michael Kojoukh",
-      title: "Communications Coordinator, Web Services TDSB",
+      name: "Ho Jung",
+      title: "Web Production and Training Specialist TDSB",
       img:
         "assets/placeholderm.jpg",
       icon: "assets/linkedin.png",
       desc:
-        "Newman carried out a variety of responsibilities with a high degree of efficiency and accuracy.",
+        "...he was able to complete two development projects, remediate over 2000 pages to be compliant in accordance with WCAG 2.0.",
       pdfLink:
-        michaelPDF
+        hoJungPDF
     },
   ];
   return (
