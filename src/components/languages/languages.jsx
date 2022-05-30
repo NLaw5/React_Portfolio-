@@ -13,7 +13,7 @@ export default function Languages() {
         "assets/placeholderm.jpg",
       icon: "assets/linkedin.png",
       desc:
-        " In the span of 2 months, he was able to complete two development projects, remediate over 2000 pages to be compliant in accordance with WCAG 2.0.",
+        "...he was able to complete two development projects, remediate over 2000 pages to be compliant in accordance with WCAG 2.0.",
       pdfLink:
         hoJungPDF
     },
@@ -25,7 +25,7 @@ export default function Languages() {
         "assets/placeholder.png",
       icon: "assets/linkedin.png",
       desc:
-        "...he is hard working, persevering and intelligent, he is a quick study...Though he did not learn about C#, ASP, .NET before he entered TDSB, he was able to research knowledge and learn the new computer languages in a short period of time by himself with minimum supervision.",
+        "I believe that Newman Law would be an excellent candidate...he is hard working, persevering and intelligent, he is capable of understanding ideas quickly",
       featured: true,
       pdfLink: 
         liTianPDF
