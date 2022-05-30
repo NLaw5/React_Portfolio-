@@ -5,8 +5,15 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  overflow-x: hidden;
-  overflow-y: hidden;
+  
+  //Delete scroll bar:
+  scrollbar-width: none; // this is for firefox
+
+  // This so for all other browsers
+  &::-webkit-scrollbar{
+      display:none;
+  }
+
 
   @include mobile {
     justify-content: space-around;

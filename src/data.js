@@ -17,14 +17,6 @@ export const featuredPortfolio = [
     },
     {
       id: 3,
-      title: "React JS Portfolio",
-      img:
-        "assets/ReactPortfolio.JPG",
-      link:
-        "https://newman-law-portfolio-alpha.vercel.app/"
-    },
-    {
-      id: 4,
       title: "Spotify Angular App",
       img:
         "assets/SpotifyAngular.JPG",
@@ -32,13 +24,21 @@ export const featuredPortfolio = [
         "https://angular-fullstack-spotifyapp.netlify.app/"
     },
     {
-      id: 5,
-      title: "TDSB Learning Outdoors",
+      id: 4,
+      title: "React Weather App",
       img:
-        "assets/tdsbLearningOutdoors.JPG",
+        "assets/React_Weather_App.JPG",
       link:
-        "https://www.tdsb.on.ca/learningoutdoors",
+        "https://react-weatherapp-pink.vercel.app/"
     },
+    {
+      id: 5,
+      title: "React JS Portfolio",
+      img:
+        "assets/ReactPortfolio.JPG",
+      link:
+        "https://newman-law-portfolio-alpha.vercel.app/"
+    },,
     {
       id: 6,
       title: "Node JS Project",
@@ -52,6 +52,14 @@ export const featuredPortfolio = [
   export const webPortfolio = [
     {
       id: 1,
+      title: "React Weather App",
+      img:
+        "assets/React_Weather_App.JPG",
+      link:
+        "https://react-weatherapp-pink.vercel.app/"
+    },
+    {
+      id: 2,
       title: "Meeting Module",
       img:
         "assets/tdsbMeetingModule.JPG",
@@ -59,24 +67,20 @@ export const featuredPortfolio = [
         "https://www.tdsb.on.ca/Leadership/Boardroom/Live-Webcast-of-Meetings/Webcast-Archives"
     },
     {
-      id: 2,
-      title: "TDSB Job Fairs",
-      img: "assets/TDSBJobFairs.JPG",
-      link: "https://www.tdsb.on.ca/Community/Community-Services/Current-Job-Postings"
-    },
-    {
       id: 3,
-      title: "TDSB ESL Program",
-      img: "assets/tdsbESLJob.JPG",
-      link: "https://www.tdsb.on.ca/Adult-Learners/Learn-English/-ESL-Programs/ESL-Program-Search"
+      title: "Spotify Angular App",
+      img:
+        "assets/SpotifyAngular.JPG",
+      link:
+        "https://angular-fullstack-spotifyapp.netlify.app/"
     },
     {
       id: 4,
-      title: "TDSB Learning Outdoors",
+      title: "React JS Portfolio",
       img:
-        "assets/tdsbLearningOutdoors.JPG",
+        "assets/ReactPortfolio.JPG",
       link:
-        "https://www.tdsb.on.ca/learningoutdoors",
+        "https://newman-law-portfolio-alpha.vercel.app/"
     },
     {
       id: 5,
@@ -88,11 +92,9 @@ export const featuredPortfolio = [
     },
     {
       id: 6,
-      title: "Spotify Angular App",
-      img:
-        "assets/SpotifyAngular.JPG",
-      link:
-        "https://angular-fullstack-spotifyapp.netlify.app/"
+      title: "TDSB Job Fairs",
+      img: "assets/TDSBJobFairs.JPG",
+      link: "https://www.tdsb.on.ca/Community/Community-Services/Current-Job-Postings"
     },
   ];
   
