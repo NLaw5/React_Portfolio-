@@ -21,7 +21,8 @@ li {
     }
 
     &.active {
-        background-color: $mainColor;
+        // background-color: $mainColor;
+        background-color: #062F4f;
         color: white;
     }
 }
