@@ -11,5 +11,5 @@ Some notable features of this portfolio:
 - Arrow Down Animation in Intro Component: When intro component is rendered, the arrow-down icon is continuosly fading in an out, this is becacuse we added keyframes to the image which for every 2 seconds, we set the opacity to 0 
 - Slider Feature: In our Works Component, I created a slider in which it uses translate(X) to move different components on the view page. We use a useState as the parameter for our translateX() styling, and based on the arrows onClick function, we can view different cards based on what is clicked
 
-ToDo for the Future:
+To Do for the Future:
 - Instead of having all the data in this repo, we can create an express server with REST APIs to fetch data from MongoDB so that the data is in a database rather than having it statically on file.
