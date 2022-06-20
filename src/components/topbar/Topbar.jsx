@@ -7,7 +7,7 @@ export default function Topbar({menuOpen, setMenuOpen}) {
       <div className="wrapper">
         <div className="left">
             <a href="#intro" className="logo">Newman Law</a>
-            <div className="itemContainer">
+            {/* <div className="itemContainer">
                 <Person className = "icon"/>
                 <span>
                   +1 647 937 7331
@@ -18,7 +18,7 @@ export default function Topbar({menuOpen, setMenuOpen}) {
                 <span>
                   newn.law123@gmail.com
                 </span>
-            </div>
+            </div> */}
         </div>
         <div className="right">
           <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
